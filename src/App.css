@@ -1,0 +1,163 @@
+.To-do-list-container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: flex-start;
+  
+  background-color: #F5F7E1;
+  max-width: max-content;
+  min-width: max-content;
+  max-height: 50rem;
+  min-height: 50rem;
+  margin-top: 10rem;
+  border-radius: 2rem;
+  padding: 3rem;
+  overflow-y: scroll;
+  box-shadow: 0.2rem 0.2rem 0.2rem #E5E5E5;
+}
+
+::-webkit-scrollbar{
+
+  display: none;
+}
+.todo-form{
+  
+  margin-top: 1rem;
+  margin-left: 10%;
+  max-width: 75%;
+  opacity: 100%;
+}
+
+.heading{
+
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 23% ;
+  margin-bottom: 1rem;
+  
+  
+}
+
+.horizontal-rule{
+
+  width: 47rem;
+  border-bottom: 2px dashed gray;
+  margin-bottom: 20px;
+  margin-left: -5rem;
+}
+
+.todo-form input{
+  font-size: 2rem;
+  padding : .5rem;
+  width: 35rem;
+  height: 3rem;
+  border : 1px solid gray ;
+  border-radius: 0.5rem;
+  opacity: 100%;
+}
+
+.todo-form button{
+  font-size: 2rem;
+  margin-top: 2rem;
+  background-color: #F4D03f;
+  margin-left: 35%;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border : none;
+}
+
+.todo-form button:hover{
+  height: 5rem;
+  background-color: black;
+  color : #F4D03f;
+  box-shadow: 1rem 1rem 1rem gray;
+}
+.task-div{
+
+  background-color:#FBBD58;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  max-width: 42rem;
+  min-width: 42rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem gray;
+}
+
+.complete{
+
+  text-decoration: line-through;
+  background-color: greenyellow;
+  opacity: 50%;
+  max-width: 41rem;
+  min-width: 41rem;
+  height : 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.task-div todo-text{
+  float: left;
+}
+.task-div icons {
+  float: right;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+.doodle-1{
+  height: 90rem;
+  width: 150rem;
+  float: right;
+  margin-right: -150rem;
+  margin-top: -50rem;
+  z-index: -1;
+  position: absolute;
+}
+
+
+.pencil{
+  height: 60rem;
+  
+  float: right;
+  margin-top: -40rem;
+  margin-left: 27rem;
+  z-index: -1;
+  position: absolute;
+}
+
+.doodle-2{
+  height: 60rem;
+  width: 110rem;
+  float: right;
+  margin-left: -90rem;
+  margin-top: -30rem;
+  z-index: -1;
+  position: absolute;
+}
+
+
+.doodle-3{
+  
+  float: right;
+  height: 50rem;
+  margin-left: -69rem;
+  margin-top: -30rem;
+  z-index: -1;
+  position: absolute;
+}
+
+.todo-text{
+
+  max-width: 38rem;
+  min-width: 38rem;
+}

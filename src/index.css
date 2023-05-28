@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: #F57C51;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
